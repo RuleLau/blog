@@ -15,7 +15,10 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.6.0",
+    "vuepress": "^1.6.0"
+  },
   "devDependencies": {},
   "description": ""
 }
