@@ -19,6 +19,8 @@
     "@vuepress/plugin-medium-zoom": "^1.6.0",
     "vuepress": "^1.6.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.3"
+  },
   "description": ""
 }
