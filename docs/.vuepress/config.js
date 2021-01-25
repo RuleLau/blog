@@ -39,7 +39,19 @@ module.exports = {
                     ]
                 },
                 {
-                    title: '线程池',
+                    title: 'Concurrency',
+                    collapsable: true,
+                    children: [
+                        'Concurrency/volatile'
+                        /*'线程池/虚拟机中的对象结构',
+                        'JVM/垃圾收集策略与算法',
+                        'JVM/内存分配与回收策略',
+                        'JVM/类文件结构',
+                        'JVM/类加载'*/
+                    ]
+                },
+                {
+                    title: 'Thread Pool',
                     collapsable: true,
                     children: [
                         'ThreadPool/Executors'
@@ -51,7 +63,7 @@ module.exports = {
                     ]
                 },
                 {
-                    title: '设计模式'
+                    title: 'Design Pattern'
                 },
                 {
                     title: 'Spring'
@@ -60,7 +72,7 @@ module.exports = {
                     title: 'Mybatis'
                 },
                 {
-                    title: '计算机网络'
+                    title: 'Computer Network'
                 },
                 {
                     title: 'Linux'
