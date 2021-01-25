@@ -30,19 +30,20 @@ module.exports = {
                     title: 'JVM',
                     collapsable: true,
                     children: [
-                        'JVM/JVM内存结构',
-                        'JVM/虚拟机中的对象结构',
-                        'JVM/垃圾收集策略与算法',
-                        'JVM/内存分配与回收策略',
-                        'JVM/类文件结构',
-                        'JVM/类加载'
+                        'jvm/JVM内存结构',
+                        'jvm/虚拟机中的对象结构',
+                        'jvm/垃圾收集策略与算法',
+                        'jvm/内存分配与回收策略',
+                        'jvm/类文件结构',
+                        'jvm/类加载'
                     ]
                 },
                 {
                     title: 'Concurrency',
                     collapsable: true,
                     children: [
-                        'Concurrency/volatile'
+                        'concurrency/volatile',
+                        'concurrency/synchronized'
                         /*'线程池/虚拟机中的对象结构',
                         'JVM/垃圾收集策略与算法',
                         'JVM/内存分配与回收策略',
@@ -51,10 +52,10 @@ module.exports = {
                     ]
                 },
                 {
-                    title: 'Thread Pool',
+                    title: 'ThreadPool',
                     collapsable: true,
                     children: [
-                        'ThreadPool/Executors'
+                        'threadPool/Executors'
                         /*'线程池/虚拟机中的对象结构',
                         'JVM/垃圾收集策略与算法',
                         'JVM/内存分配与回收策略',
