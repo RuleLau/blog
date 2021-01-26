@@ -43,7 +43,8 @@ module.exports = {
                     collapsable: true,
                     children: [
                         'concurrency/volatile',
-                        'concurrency/synchronized'
+                        'concurrency/synchronized',
+                        'concurrency/线程安全的策略'
                         /*'线程池/虚拟机中的对象结构',
                         'JVM/垃圾收集策略与算法',
                         'JVM/内存分配与回收策略',
