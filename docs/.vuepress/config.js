@@ -21,7 +21,7 @@ module.exports = {
         logo: '/icon.jpg',
         nav: [ // 导航栏配置
             {text: '首页', link: '/'},
-            {text: '前端', link: '/front/'},
+            // {text: '前端', link: '/front/'},
             {text: '后端', link: '/back/'}
         ],
         sidebar: {
@@ -56,7 +56,8 @@ module.exports = {
                     title: 'ThreadPool',
                     collapsable: true,
                     children: [
-                        'threadPool/Executors'
+                        'threadPool/Executors',
+                        'threadPool/ThreadPool01',
                         /*'线程池/虚拟机中的对象结构',
                         'JVM/垃圾收集策略与算法',
                         'JVM/内存分配与回收策略',
