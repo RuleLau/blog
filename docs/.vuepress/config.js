@@ -59,6 +59,7 @@ module.exports = {
                     children: [
                         'threadPool/Executors',
                         'threadPool/ThreadPool01',
+                        'threadPool/ThreadPool02',
                         /*'线程池/虚拟机中的对象结构',
                         'JVM/垃圾收集策略与算法',
                         'JVM/内存分配与回收策略',

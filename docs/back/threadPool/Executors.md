@@ -28,8 +28,8 @@ fixedThreadPool和cacheThreadPool一样，同用一个底层池，只不过参�
 创建一个支持定时及周期性的任务执行的线程池，多数情况可以代替Timer类。Timer存在以下缺陷
 Timer类不管启动多少定时器，但它只会启动一条线程，当有多个定时任务时，就会产生延迟。如：我们要求一个任务每隔3S执行，且执行大约需要10S，第二个任务每隔5S执行，两个任务同时启动。
 若使用Timer我们会发现，第而个任务是在第一个任务执行结束后的5S才开始执行。这就是多任务的延时问题。若多个定时任务中有一个任务抛异常，那所有任务都无法执行。
-Timer执行周期任务时依赖系统时间。若系统时间发生变化，那Timer执行结果可能也会发生变化。而ScheduledExecutorService基于时间的延迟，
-并非时间，因此不会由于系统时间的改变发生执行变化。 综上所述，定时任务要使用ScheduledExecutorService取代Timer。
+Timer执行周期任务时依赖系统时间。若系统时间发生变化，那Timer执行结果可能也会发生变化。而ScheduledExecutorService基于时间的延迟，并非时间，因此不会由于系统时间的改变发生执行变化。 
+综上所述，定时任务要使用ScheduledExecutorService取代Timer。
 
 #### 任务 Runnable
 
