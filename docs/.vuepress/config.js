@@ -16,7 +16,7 @@ module.exports = {
     markdown: {
         lineNumbers: false
     },
-    // theme: '@vuepress/theme-blog',
+    theme: '@vuepress/theme-blog',
     themeConfig: {
         logo: '/icon.jpg',
         nav: [ // 导航栏配置
@@ -30,22 +30,22 @@ module.exports = {
                     title: 'JVM',
                     collapsable: true,
                     children: [
-                        'jvm/JVM内存结构',
-                        'jvm/虚拟机中的对象结构',
-                        'jvm/垃圾收集策略与算法',
-                        'jvm/垃圾收集器',
-                        'jvm/内存分配与回收策略',
-                        'jvm/类文件结构',
-                        'jvm/类加载'
+                        'jvm/JMM',
+                        'jvm/JVMStructure',
+                        'jvm/GCAlgorithm',
+                        'jvm/GC',
+                        'jvm/MemoryAllocation',
+                        'jvm/ClassStructure',
+                        'jvm/ClassLoader'
                     ]
                 },
                 {
                     title: 'Concurrency',
                     collapsable: true,
                     children: [
-                        'concurrency/volatile',
-                        'concurrency/synchronized',
-                        'concurrency/线程安全的策略'
+                        'concurrency/Volatile',
+                        'concurrency/Synchronized',
+                        'concurrency/ThreadSafeStrategy'
                         /*'线程池/虚拟机中的对象结构',
                         'JVM/垃圾收集策略与算法',
                         'JVM/内存分配与回收策略',
