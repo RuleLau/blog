@@ -68,7 +68,14 @@ module.exports = {
                     ]
                 },
                 {
-                    title: 'Design Pattern'
+                    title: 'Design Pattern',
+                    collapsable: true,
+                    children: [
+                        'design-pattern/abstract-factory',
+                        'design-pattern/simple-factory',
+                        'design-pattern/factory-method',
+                        'design-pattern/simple-abstract-factory'
+                    ]
                 },
                 {
                     title: 'Spring'
