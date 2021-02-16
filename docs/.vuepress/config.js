@@ -16,7 +16,7 @@ module.exports = {
     markdown: {
         lineNumbers: false
     },
-    theme: '@vuepress/theme-blog',
+    // theme: '@vuepress/theme-blog',
     themeConfig: {
         logo: '/icon.jpg',
         nav: [ // 导航栏配置
