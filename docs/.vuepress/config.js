@@ -76,8 +76,8 @@ module.exports = {
                         'design-pattern/factory-method',
                         'design-pattern/simple-abstract-factory'
                     ]
-                },
-                {
+                }
+                /*{
                     title: 'Spring'
                 },
                 {
@@ -88,7 +88,7 @@ module.exports = {
                 },
                 {
                     title: 'Linux'
-                }
+                }*/
             ]
         },
         searchMaxSuggestions: 10
