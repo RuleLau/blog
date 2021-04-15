@@ -46,11 +46,6 @@ module.exports = {
                         'concurrency/Volatile',
                         'concurrency/Synchronized',
                         'concurrency/ThreadSafeStrategy'
-                        /*'线程池/虚拟机中的对象结构',
-                        'JVM/垃圾收集策略与算法',
-                        'JVM/内存分配与回收策略',
-                        'JVM/类文件结构',
-                        'JVM/类加载'*/
                     ]
                 },
                 {
@@ -60,11 +55,6 @@ module.exports = {
                         'threadPool/Executors',
                         'threadPool/ThreadPool01',
                         'threadPool/ThreadPool02',
-                        /*'线程池/虚拟机中的对象结构',
-                        'JVM/垃圾收集策略与算法',
-                        'JVM/内存分配与回收策略',
-                        'JVM/类文件结构',
-                        'JVM/类加载'*/
                     ]
                 },
                 {
@@ -75,6 +65,29 @@ module.exports = {
                         'design-pattern/simple-factory',
                         'design-pattern/factory-method',
                         'design-pattern/simple-abstract-factory'
+                    ]
+                },
+                {
+                    title: 'Distributed-Transaction',
+                    collapsable: true,
+                    children: [
+                        'distributed-transaction/Transaction',
+                        'distributed-transaction/Seata'
+                    ]
+                },
+                {
+                    title: 'Docker',
+                    collapsable: true,
+                    children: [
+                        'docker/install',
+                        'docker/CentOS-Mysql'
+                    ]
+                },
+                {
+                    title: 'Utils',
+                    collapsable: true,
+                    children: [
+                        'utils/ImgBed'
                     ]
                 }
                 /*{
@@ -91,7 +104,8 @@ module.exports = {
                 }*/
             ]
         },
-        searchMaxSuggestions: 10
+        searchMaxSuggestions: 10,
+        lastUpdated: 'Last Updated'
     },
     plugins: ['@vuepress/medium-zoom']
 }
