@@ -58,6 +58,13 @@ module.exports = {
                     ]
                 },
                 {
+                    title: 'SpringCloud',
+                    collapsable: true,
+                    children: [
+                        'springcloud/Oauth2-SSO'
+                    ]
+                },
+                {
                     title: 'Design Pattern',
                     collapsable: true,
                     children: [
